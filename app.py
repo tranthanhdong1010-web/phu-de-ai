@@ -146,7 +146,7 @@ def analyze_video_all_in_one(file_path, title, platform, url, fmt, lang, include
     """
     
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.8-flash",
         contents=[uploaded_file, prompt]
     )
     
