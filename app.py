@@ -165,9 +165,9 @@ def analyze_video_all_in_one(file_path, title, platform, url, fmt, lang, include
     """
     
     models_to_try = [
-        "gemini-2.5-flash",
-        "gemini-2.5-flash-lite",
-        "gemini-flash-latest"
+        "gemini-3.8-flash",
+        "gemini-1.5-flash",
+        "gemini-2.5-flash"
     ]
     
     response = None
